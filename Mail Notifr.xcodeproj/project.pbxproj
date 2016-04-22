@@ -287,6 +287,7 @@
 				1A8F667416B5836700396E44 /* CopyFiles */,
 				02DC7EDF0107491FB89FF76A /* Copy Pods Resources */,
 				1AE35A75189FF6A00000D6E3 /* ShellScript */,
+				2E2B9FDDD9A60FDC5C35498D /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,7 +308,7 @@
 				ORGANIZATIONNAME = ashchan.com;
 				TargetAttributes = {
 					1AB7FD7B16B578740040BBCE = {
-						DevelopmentTeam = 9A3W22M8YB;
+						DevelopmentTeam = 422UKPR2DG;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -413,6 +414,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "rm -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/Contents/Library/LoginItems/GmailNotifrHelper.app/Contents/embedded.provisionprofile\"";
+		};
+		2E2B9FDDD9A60FDC5C35498D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		3FD9F5F8CDFE4E0B85D996B1 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

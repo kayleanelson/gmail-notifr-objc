@@ -143,7 +143,7 @@ NSString *const GNAccountMenuUpdateNotification = @"GNAccountMenuUpdateNotificat
     }
 
     self.isChecking = YES;
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://mail.google.com/mail/feed/atom"]
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://mail.google.com/mail/feed/atom/%5Eiim"]
                                                            cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
                                                        timeoutInterval:30];
     [request setHTTPShouldHandleCookies:NO];

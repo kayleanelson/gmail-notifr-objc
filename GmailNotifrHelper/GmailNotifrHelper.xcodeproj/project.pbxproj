@@ -102,7 +102,7 @@
 				ORGANIZATIONNAME = ashchan.com;
 				TargetAttributes = {
 					1AFB7F03189FBDA000B82441 = {
-						DevelopmentTeam = 9A3W22M8YB;
+						DevelopmentTeam = 422UKPR2DG;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
